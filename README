@@ -1,0 +1,25 @@
+Developers: 
+Sagar Chordia
+Pararth Shah
+Siddhesh Chaubal
+
+CS 213 (Data Structures Project)
+
+Supports funtions like:
+1) Constructs Kd-tree from given Point Set.
+1) Finding nearest neighbour of given point from Point set stored in KD-Tree.
+2) Finds out all points lying inside a specified region. 
+3) Finds out some clusters in Pointset.
+
+
+
+Files:
+prim.h
+region.h
+kdtree.h
+main.cpp
+
+prim.h: includes classes for basic point and edge
+region.h: classes for finding number of points in a region
+kdtree.h: class for KdTree and algorithms for creation of Kdtree, finding nearest point, finding all points in region.
+main.cpp algorithm for finding clusters in given dataset
